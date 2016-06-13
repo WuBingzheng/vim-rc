@@ -61,6 +61,8 @@ inoremap "" ""<LEFT>
 nmap gw <C-w>w
 nmap gq :q<CR>
 nmap gm :w<CR>:make<CR>:cw<CR>
+nmap gb :BufExplorer<CR>
+nmap gr :MRU<CR>
 nmap <Tab> <C-^>
 
 map! <C-l> <RIGHT>
